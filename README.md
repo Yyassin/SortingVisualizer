@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<span title="https://i.imgur.com/7XZPTGl.png">
+ <p align="center">
+  <img width = "800px" src="https://i.imgur.com/7XZPTGl.png">
+ </p>
+</span>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sorting Visualizer
 
-## Available Scripts
+[![GitHub stars](https://img.shields.io/github/stars/Yyassin/SortingVisualizer.svg?colorB=007EC6)](https://github.com/Yyassin/SortingVisualizer/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Yyassin/Stockpreme/master/LICENSE)
 
-In the project directory, you can run:
+> **Sorting Visualizer** is a website that allows for the visualization of common sorting algorithms. The algorithms are applied to randomly generated arrays that are represented graphically. The manipulation of stored data is animated with the aid of color-coding. Visit the live site [here](https://yyassin.github.io/SortingVisualizer/).
 
-### `yarn start`
+## Minimum Requirements:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   Windows 7 or later
+-   Node.js >12
+-   Yarn >1.2x
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Running Project
 
-### `yarn test`
+You will first need to clone the repository to your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/Yyassin/SortingVisualizer
+```
 
-### `yarn build`
+-   Install [Node js](https://nodejs.org/en/) version 12.x or later.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   Install [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) version 1.2x or later.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   Navigate to the appropriate directory from terminal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd ~/SortingVisualizer
+```
 
-### `yarn eject`
+-   Install the required dependencies in the root folder with npm:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm i
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Run the main client file with yarn:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   Enjoy! 🎉
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Visualize the implementation of 6 common sorting algorithms on randomly generated arrays:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    -   bubble sort
+    -   insertion sort
+    -   selection sort
+    -   quick sort
+    -   merge sort
+    -   heap sort
+
+-   Visualization is achieved by dynamically swapping elements and color-coding algorithm stages.
+
+-   Change the speed at which animations are applied with a slider.
+
+-   Change the number of data points being considered (_note:_ limits vary by platform).
