@@ -8,7 +8,8 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Yyassin/SortingVisualizer.svg?colorB=007EC6)](https://github.com/Yyassin/SortingVisualizer/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Yyassin/Stockpreme/master/LICENSE)
 
-> **Sorting Visualizer** is a website that allows for the visualization of common sorting algorithms. The algorithms are applied to randomly generated arrays that are represented graphically. The manipulation of stored data is animated with the aid of color-coding. Visit the live site [here](https://yyassin.github.io/SortingVisualizer/).
+> **Sorting Visualizer** is a website that allows for the visualization of common sorting algorithms. The algorithms are applied to randomly generated arrays that are represented graphically. The manipulation of stored data is animated with the aid of color-coding. **Visit the live site [here](https://yyassin.github.io/SortingVisualizer/)**.\
+Inspired by: [Clément Mihailescu](https://www.linkedin.com/in/clementmihailescu)
 
 ## Minimum Requirements:
 
